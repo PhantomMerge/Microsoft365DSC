@@ -1,5 +1,6 @@
 <#
 This example creates a new Device Remediation.
+Note: The Id parameter is not required for creation - it will be automatically assigned by Azure.
 #>
 
 Configuration Example
@@ -46,7 +47,6 @@ Configuration Example
             DisplayName              = "Device remediation";
             EnforceSignatureCheck    = $False;
             Ensure                   = "Present";
-            Id                       = '00000000-0000-0000-0000-000000000000'
             Publisher                = "Some Publisher";
             RemediationScriptContent = "Base64 encoded script content";
             RoleScopeTagIds          = @("0");
