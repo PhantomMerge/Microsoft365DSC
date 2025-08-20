@@ -1,5 +1,6 @@
 <#
 This example removes a Device Remediation.
+The Id parameter can be optionally provided for better performance, but DisplayName alone is sufficient.
 #>
 
 Configuration Example
