@@ -1,5 +1,6 @@
 <#
-This example updates a new Device Remediation.
+This example updates an existing Device Remediation.
+The Id parameter can be optionally provided for better performance when updating existing scripts.
 #>
 
 Configuration Example
